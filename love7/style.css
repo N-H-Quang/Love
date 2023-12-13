@@ -24,7 +24,8 @@
     font-size: 5vw;
     text-align: center;
     margin-top: calc(50vh - .5em);
-    font-family: Monoton;
-    color: hsla(35, 99%, 50%, .3);
-    z-index: -1
+    font-family: 'Manrope', sans-serif;
+    color: hsla(35, 100%, 50%, 0.83);
+    z-index: -1;
+    text-transform: uppercase;
   }

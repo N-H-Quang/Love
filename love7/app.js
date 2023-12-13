@@ -1,3 +1,14 @@
+let params = new URLSearchParams(window.location.search);
+let name = params.get('name');
+
+if (name) {
+
+  // replace _ with space
+  name = name.replace(/_/g, ' ');
+
+  document.getElementById('name').innerHTML = name;
+}
+
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
